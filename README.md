@@ -1,5 +1,5 @@
-<h1>IMAGINE EVENTS</h1>
-<h2>Ana Beatriz Abreu dos Santos</h2>
+<h1 align=center> TRABALHO DE SENSORES E PERMISSÕES </h1>IMAGINE EVENTS</h1>
+<h2 align=center> TRABALHO DE SENSORES E PERMISSÕES </h1>Ana Beatriz Abreu dos Santos</h2>
 
 Este projeto tem como objetivo ser uma homenagem aos 470 anos da cidade de São Paulo uma cidade grande e com várias culturas em sua população, vários locais e eventos para conhecer.
 
@@ -7,7 +7,7 @@ Esse aplicaitvo desenvolvindo em Flutter visa expor eventos de São Paulo que ac
 
 ### Sobre o Projeto:
 
-- [Telas/Protótipo]()
+- [Home]()
 - [Técnico do Protótipo]()
 - [Técnica dos Widgets]()
 - [Telas]() 
