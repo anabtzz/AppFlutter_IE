@@ -5,4 +5,9 @@ Este projeto tem como objetivo ser uma homenagem aos 470 anos da cidade de São 
 
 Esse aplicaitvo desenvolvindo em Flutter visa expor eventos de São Paulo que acontecem na grande cidade, mostrando o local, data e uma pequena descrição do eveto , podendo até adicionar locais de sua preferência nos favoritos.
 
-<h1>Sobre o Projeto:</h1>
+### Sobre o Projeto:
+
+- [Telas/Protótipo]()
+- [Técnico do Protótipo]()
+- [Técnica dos Widgets]()
+- [Telas]() 
