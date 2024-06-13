@@ -1,5 +1,5 @@
 <h1 align=center> IMAGINE EVENTS </h1>
-<h3 align=center> Ana Beatriz Abreu dos Santos </h3>
+<h3 align=center> Integrante: Ana Beatriz Abreu dos Santos </h3>
 
 Este projeto tem como objetivo ser uma homenagem aos 470 anos da cidade de São Paulo uma cidade grande e com várias culturas em sua população, vários locais e eventos para conhecer.
 
