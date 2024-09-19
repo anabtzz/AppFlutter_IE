@@ -6,9 +6,10 @@ class Evento {
    final String data;
    final String descri;
    final String obs;
+    Uri link;
 
   static var tabela;
 
- const Evento(this.icone, this.nome,this.data, this.descri, this.obs) ;
+ Evento(this.icone, this.nome,this.data, this.descri, this.obs, this.link) ;
 }
 

@@ -1,10 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:imagine_events_sp/models/evento.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PagDetalhes extends StatelessWidget {
   final Evento evento;
 
+
+
+  _launchURL(Uri url) async {
+    if(!await launchUrl(url)) {
+      throw Exception('Não foi possivel acessar o site');
+    }
+  }
+
   const PagDetalhes({Key? key, required this.evento}) : super(key: key);
+  
 
   @override
 
@@ -90,6 +100,7 @@ class PagDetalhes extends StatelessWidget {
               ),
               onPressed: () {
                 // Ação ao clicar no botão
+                 _launchURL(evento.link);
               },
               child: Text('Saber Mais'),
             ),
