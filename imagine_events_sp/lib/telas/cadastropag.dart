@@ -33,7 +33,7 @@ class cadastroState extends State<cadastroPag> {
             // Coloca um icone de usuario a aplicação 
             children: <Widget>[
                const Icon(
-                Icons.person,
+                Icons.person_2_outlined,
                 size: 100,
                 color: Colors.white,
               ),
@@ -141,10 +141,10 @@ class cadastroState extends State<cadastroPag> {
                               );
                             }
                           },
+                          child: const Text('Logar'),
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color.fromARGB(255, 255, 255, 255), 
+                             side: BorderSide(width: 2.5, color: Color(0xFFB2A5D4))
                           ),
-                          child: const Text('Cadastrar'),
                         ),
                       ],
                     ),

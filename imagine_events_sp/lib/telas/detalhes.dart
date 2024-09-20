@@ -23,7 +23,7 @@ class PagDetalhes extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        backgroundColor: const Color(0xFF9E9ECE),
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         elevation: 0,
         title: const Padding(
 
@@ -31,8 +31,9 @@ class PagDetalhes extends StatelessWidget {
           padding: EdgeInsets.only(top: 8.0),
           child: Text('Detalhes Sobre:', 
             style: TextStyle(
+              fontWeight: FontWeight.w900,
               fontStyle: FontStyle.italic,
-              color: Colors.white
+              color: Color.fromARGB(255, 0, 0, 0)
                 ),
             ),
         ),
@@ -83,7 +84,7 @@ class PagDetalhes extends StatelessWidget {
                 evento.obs,
                 style: TextStyle(fontSize: 17, 
                 fontWeight: FontWeight.w900,
-                color: Color.fromARGB(255, 255, 0, 0)),
+                color: Color.fromARGB(255, 0, 0, 0)),
                 textAlign: TextAlign.center,
               ),
             ),
@@ -95,7 +96,7 @@ class PagDetalhes extends StatelessWidget {
                 foregroundColor: Colors.white, // foreground
                 backgroundColor: Color(0xFF9E9ECE), // background
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30),
+                  borderRadius: BorderRadius.circular(40),
                 ),
               ),
               onPressed: () {

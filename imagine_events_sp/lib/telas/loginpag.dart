@@ -29,7 +29,7 @@ class loginState extends State<loginPag> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               const Icon(
-                Icons.person,
+                Icons.person_2_outlined,
                 size: 100,
                 color: Colors.white,
               ),
@@ -124,10 +124,9 @@ class loginState extends State<loginPag> {
                               );
                             }
                           },
-                          // ignore: sort_child_properties_last
-                          child: const Text('Logar'),
+                       child: const Text('Logar'),
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                             side: BorderSide(width: 2.5, color: Color(0xFFB2A5D4))
                         ),
                         ),
                       ],
