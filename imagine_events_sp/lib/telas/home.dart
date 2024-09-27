@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:imagine_events_sp/models/evento.dart';
 import 'package:imagine_events_sp/telas/detalhes.dart';
-import 'package:imagine_events_sp/telas/favorita.dart';
 import 'package:imagine_events_sp/telas/loginpag.dart';
 
 class Home extends StatefulWidget {
@@ -23,14 +22,9 @@ class homepagState extends State<Home> {
     if (_selectedIndex == 1) {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => FavoritasPage()),
-      );
-    } else if (_selectedIndex == 2) {
-      Navigator.push(
-        context,
         MaterialPageRoute(builder: (context) => loginPag()),
       );
-    }
+      }
   }
 
   @override
@@ -140,11 +134,7 @@ class homepagState extends State<Home> {
             icon: Icon(Icons.home),
             label: 'Home',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Favorita',
-          ),
-          BottomNavigationBarItem(
+            BottomNavigationBarItem(
             icon: Icon(Icons.logout),
             label: 'LogOut',
           ),

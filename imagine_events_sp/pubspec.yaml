@@ -66,6 +66,8 @@ flutter:
      - images/games.jpg
      - images/tech.png
      - images/spfw.png
+     - icon/logo.png
+     - icon/logo 2.png
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

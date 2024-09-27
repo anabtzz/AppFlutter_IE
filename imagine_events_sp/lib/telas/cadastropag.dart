@@ -123,7 +123,9 @@ class cadastroState extends State<cadastroPag> {
                     // Adiona um text pequena embaixo do form para o não cadastrado
                           child: const Text(
                             'Já tem conta? Faça o login',
-                            style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                            style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+                            fontWeight: FontWeight.w600
+                            ),
                           ),
                         ),
 

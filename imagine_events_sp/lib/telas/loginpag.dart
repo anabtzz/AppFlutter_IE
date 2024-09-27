@@ -106,7 +106,8 @@ class loginState extends State<loginPag> {
                           // Adiona um text pequena embaixo do form para o não cadastrado
                           child: const Text(
                             'Não tem conta? Faça o cadastro',
-                            style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                            style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+                            fontWeight: FontWeight.w600   ),
                           ),
                         ),
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:imagine_events_sp/telas/cadastropag.dart';
+import 'package:imagine_events_sp/telas/inicio.dart';
 
 void main() {
   runApp(
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'IMAGINE EVENTS', // Coloca um nome para o aplicativo
       theme: ThemeData( // Define o estilo e tema da aplicação 
         ),
-      home: const cadastroPag(), // Seta a pagina principal que irá aparecer quando iniciar a aplicação
+      home: const inicio(), // Seta a pagina principal que irá aparecer quando iniciar a aplicação
     );
   }
 }
